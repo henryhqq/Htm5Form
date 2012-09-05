@@ -1,0 +1,32 @@
+body {
+  font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background: #E6EAE9;
+}
+a {
+  color: #00B7FF;
+}
+input{
+    width: 200px;
+    -webkit-text-size-adjust:none;
+    -webkit-touch-callout: none;
+    -webkit-user-drag: none;
+    background-color: transparent;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+#listview{
+    width: 1000px;
+    height: 400px;
+    margin: 20px auto;
+    -webkit-box-shadow:5px 2px 10px 5px rgba(0, 0, 0, .7);
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    background: url(../images/new.png);
+    background-size:contain;
+}
+form{
+    width:400px;
+    text-align: center;
+    background-color: rgba(255,255,255,.5);
+}

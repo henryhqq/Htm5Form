@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FromExample</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="viewport" content="user-scalable=no, width=device-width" />
+    <meta name="description" content="Emperor"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <link rel="stylesheet" media="screen and (max-width: 320px) and (orientation:portrait)" href="stylesheets/iphone.css">
+    <link rel="stylesheet" media="screen and (min-width: 330px) and (max-width: 480px) and (orientation:landscape)" href="stylesheets/iphoneHorizotal.css">
+    <!--页面最大宽度是360时最小宽度330加载androidstyle.css-->
+    <link rel="stylesheet" media="screen and (max-width: 360px) and (min-width:330px)" href="stylesheets/android.css">
+    <link rel="stylesheet" media="screen and (max-width: 690px) and (min-width:490px)" href="stylesheets/androidHorizotal.css">
+
+    <!--页面最小宽度是1024时加载style.css-->
+    <link rel="stylesheet" media="screen and (min-width: 1025px)" href="stylesheets/style.css">
+
+    <!--页面最大宽度是1024时加载style.css-->
+    <!--<link rel="stylesheet" media="screen and (max-width: 1024px) and (min-width:500px)" href="stylesheets/ipadstyle.css">-->
+    <link rel="stylesheet" media="screen and (max-width: 1024px) and (min-width:700px) and (orientation:landscape)" href="stylesheets/ipad.css">
+    <link rel="stylesheet" media="screen and (max-width: 1024px) and (min-width:700px) and (orientation:portrait)" href="stylesheets/ipadVerticle.css">
+</head>
+<body>
+<div id="listview">
+    <form>
+        <fieldset>
+            <legend>输入员工信息</legend>
+            <div class="stuInfo"><label for="userName">姓名</label><input type="text" name="userName" id="userName"></div> <br>
+            <div class="stuInfo"><label for="tel">电话</label><input type=tel name="tel" id="tel"></div> <br>
+            <div class="stuInfo"><label for="email">邮箱</label><input type=email name="email" id="email"></div> <br>
+            <div class="stuInfo"><label for="birth">生日</label><input type=date name="birth" id="birth"></div> <br>
+            <div class="stuInfo"><label for="url">个人主页</label><input type=url name="url" id="url"></div> <br>
+            <hr>
+            <p style="text-align:center;"><input type="submit" value="提交"></p>
+        </fieldset>
+    </form>
+</div>
+
+</body>
+</html>
